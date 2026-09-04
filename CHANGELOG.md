@@ -2,6 +2,26 @@
 
 All notable changes to KScratch will be documented in this file.
 
+## [0.3.1](https://github.com/kscratch-app/kscratch-app/releases/tag/kscratch-app-v0.3.1) (2026-09-04)
+## [0.3.1](https://github.com/kscratch-app/kscratch-app/compare/kscratch-app-v0.3.0...kscratch-app-v0.3.1) (2026-09-04)
+
+
+### Bug Fixes
+
+* **ci:** pin and verify SHA256 of NSIS downloads in Windows build ([bac3fa3](https://github.com/kscratch-app/kscratch-app/commit/bac3fa39883ce0d10de5e03784edf27944a8ee15))
+* **ci:** repair release.yml YAML and add NASM for Windows build ([82f06fb](https://github.com/kscratch-app/kscratch-app/commit/82f06fbce8d34587ad2ef7180c6d603225df2144))
+* **ci:** repair release.yml YAML and add NASM for Windows build ([95a09b6](https://github.com/kscratch-app/kscratch-app/commit/95a09b6afb586814c086d3606946a7175b8d3c29))
+* **license:** drop unused License import after LicensePublic refactor ([44ba77e](https://github.com/kscratch-app/kscratch-app/commit/44ba77e5e84a61cfb61c18389b000f0f018eca28))
+* **security:** introduce LicensePublic DTO so jwt_token never leaks to the WebView ([5b9934f](https://github.com/kscratch-app/kscratch-app/commit/5b9934f76ac2d64a9ee216e37bff4e7480e6d602))
+* **tls:** install ring as rustls crypto provider at startup ([ee44938](https://github.com/kscratch-app/kscratch-app/commit/ee4493854711d850c96ab389686b1d07b8433830))
+* **tls:** install ring as rustls crypto provider at startup ([da6dc3e](https://github.com/kscratch-app/kscratch-app/commit/da6dc3e6ebde6a1ebd9128bbe95a32ecb92be5bd))
+* **ux:** surface silent errors via toast and fix broken i18n in canvas button ([b8df553](https://github.com/kscratch-app/kscratch-app/commit/b8df553a439f17ad7734297a69db7f08cd79d6c5))
+
+
+### Performance Improvements
+
+* **bundle:** split heavy libs into lazy chunks + fix watermark scope ([12db7e0](https://github.com/kscratch-app/kscratch-app/commit/12db7e05de3cddc013b60efec46c363c21ea2d98))
+
 ## [0.0.5](https://github.com/kscratch-app/kscratch-app/releases/tag/kscratch-app-v0.0.5) (2026-09-04)
 ## [0.0.5](https://github.com/kscratch-app/kscratch-app/compare/kscratch-app-v0.0.4...kscratch-app-v0.0.5) (2026-09-04)
 
