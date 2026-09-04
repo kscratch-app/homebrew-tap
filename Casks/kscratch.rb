@@ -1,13 +1,13 @@
 cask "kscratch" do
-  version "0.0.5"
+  version "0.3.1"
 
   on_intel do
-    sha256 "d0065266e33b9d4f385cfb41f69f0484ae6b4eb6643d76341111875c11e2ad06"
+    sha256 "be8073b579ac938245d91bcaec40f5850d08a74a09354ce08ad487c962ec4c10"
     url "https://storage.googleapis.com/kscratch-app-releases/v#{version}/kscratch-app_#{version}_x64.dmg"
   end
 
   on_arm do
-    sha256 "1fff0887ded21f99e4a34632cc850642b2a798a645dd6fd2f1c23c06dbef5bf0"
+    sha256 "42b53b1f16f05c78e057ec2c2db50e5c79a36623bac01f6358ae2a7e557a7415"
     url "https://storage.googleapis.com/kscratch-app-releases/v#{version}/kscratch-app_#{version}_aarch64.dmg"
   end
 
